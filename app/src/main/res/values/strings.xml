@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CarnivalTrip</string>
+    <string name="title">RIO DE JANEIRO - BRASIL</string>
+    <string name="name_carnaval">Carnaval do Brasil</string>
+    <string name="title_description">Descripcion</string>
+    <string name="description">El Carnaval de Rio de Janeiro, comienza cuarenta días antes
+    de la Semana Santa y junto con el inicio del Carnaval viene todo un mundo de esplendor
+    y color a través de los desfiles, las escuelas de Samba y las carrozas, las cuales
+    tienen diferentes opciones representativa</string>
+    <string name="poi_descrip">Río de Janeiro es una enorme ciudad costera de Brasil,
+        famosa por sus playas de Copacabana e Ipanema, la estatua del Cristo Redentor de 38m
+        de alto sobre el cerro del Corcovado y el morro Pan de Azúcar, una cima de granito
+        con teleféricos que ascienden a su cima.</string>
+    <string name="label_temp">Temperatura:</string>
+    <string name="val_temp">27ºC</string>
+    <string name="image_description">Image POI</string>
+    <string name="label_Date">Fecha:</string>
+    <string name="val_Date">25-02-2022 al 05-03-2022</string>
+    <string name="title_activity_view_poi">viewPOI</string>
+    <string name="title_Sites">Sitios de Interes</string>
+    <string name="site1">Corcovado y el Cristo Redentor</string>
+    <string name="site2">Copacabana</string>
+    <string name="site3">Maracaná</string>
+    <string name="large_text"></string>
+
+</resources>
