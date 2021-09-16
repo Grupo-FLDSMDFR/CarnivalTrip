@@ -5,12 +5,14 @@
       <map>
         <entry key="..\:/Users/PC-86248/OneDrive - AriaPSW S.A.S/Escritorio/programacion/Android/CarnivalTrip/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25056689342403626" />
+        <entry key="app/src/main/res/layout/activity_main_poi.xml" value="0.27313502521998706" />
         <entry key="app/src/main/res/layout/activity_view_poi.xml" value="0.23020833333333332" />
         <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.21614583333333334" />
         <entry key="app/src/main/res/menu/menu_view_p_o_i.xml" value="0.23020833333333332" />
       </map>
     </option>
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

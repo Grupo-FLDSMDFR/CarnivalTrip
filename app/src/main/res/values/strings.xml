@@ -22,5 +22,6 @@
     <string name="site2">Copacabana</string>
     <string name="site3">Maracaná</string>
     <string name="large_text"></string>
+    <string name="title_list_POI">Carnavales del Mundo</string>
 
 </resources>
