@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/card_item"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:animateLayoutChanges="true"
     app:cardCornerRadius="20dp"
     app:cardElevation="4dp"
@@ -12,7 +12,7 @@
     
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="140dp"
         android:layout_margin="5dp">
 
         <TextView
@@ -53,7 +53,11 @@
             <TextView
                 android:id="@+id/item_obs"
                 android:layout_width="262dp"
-                android:layout_height="80dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="none"
+                android:maxLines="5"
+                android:scrollHorizontally="false"
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="2dp"
                 android:layout_marginEnd="2dp"
@@ -61,12 +65,8 @@
                 android:padding="4dp"
                 tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur accumsan ipsum sit amet nisl ultricies maximus. Morbi finibus urna a neque maximus, ac sagittis orci faucibus. Nunc congue lorem nunc." />
             
-            
         </RelativeLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    
-
 
 </androidx.cardview.widget.CardView>
