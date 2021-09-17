@@ -2,16 +2,11 @@ package com.example.carnivaltrip
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.gson.GsonBuilder
 import kotlinx.android.synthetic.main.activity_main_poi.*
-
-val poi = listOf(
-    ListPoi("Melbourne", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur accumsan ipsum sit amet nisl ultricies maximus. Morbi finibus urna a neque maximus, ac sagittis orci faucibus. Nunc congue lorem nunc.", "10ptos", "https://gostudyaus.es/wp-content/uploads/2018/10/MEL_header_2-1.jpg"),
-    ListPoi("Melbourne", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur accumsan ipsum sit amet nisl ultricies maximus. Morbi finibus urna a neque maximus, ac sagittis orci faucibus. Nunc congue lorem nunc.", "10ptos", "https://gostudyaus.es/wp-content/uploads/2018/10/MEL_header_2-1.jpg"),
-    ListPoi("Melbourne", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur accumsan ipsum sit amet nisl ultricies maximus. Morbi finibus urna a neque maximus, ac sagittis orci faucibus. Nunc congue lorem nunc.", "10ptos", "https://gostudyaus.es/wp-content/uploads/2018/10/MEL_header_2-1.jpg"),
-    ListPoi("Melbourne", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur accumsan ipsum sit amet nisl ultricies maximus. Morbi finibus urna a neque maximus, ac sagittis orci faucibus. Nunc congue lorem nunc.", "10ptos", "https://gostudyaus.es/wp-content/uploads/2018/10/MEL_header_2-1.jpg"),
-    ListPoi("Melbourne", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur accumsan ipsum sit amet nisl ultricies maximus. Morbi finibus urna a neque maximus, ac sagittis orci faucibus. Nunc congue lorem nunc.", "10ptos", "https://gostudyaus.es/wp-content/uploads/2018/10/MEL_header_2-1.jpg")
-)
+import java.io.IOException
 
 class MainPoi : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,9 +15,34 @@ class MainPoi : AppCompatActivity() {
         initRecycler()
     }
 
-    fun initRecycler(){
+    private fun initRecycler(){
+        val poi = procces_list_poi()
+        Log.d("RES", poi[0].toString())
         r_list_poi.layoutManager = LinearLayoutManager(this)
         val adapter = PoiAdapter(poi)
         r_list_poi.adapter=adapter
+    }
+
+    private fun procces_list_poi(): List<ListPoi> {
+        val fileData = getListPoi()
+        val gson = GsonBuilder().create()
+
+        return gson.fromJson(fileData, Array<ListPoi>::class.java).toList()
+    }
+
+    private fun getListPoi(): String? {
+        var gListPoi: String? = null
+        try {
+            val inputStream = assets.open("list_poi.json")
+            val size = inputStream.available()
+            val buffer = ByteArray(size)
+            inputStream.read(buffer)
+            inputStream.close()
+
+            gListPoi = String(buffer)
+        }catch (e: IOException){
+            e.printStackTrace()
+        }
+        return gListPoi
     }
 }
