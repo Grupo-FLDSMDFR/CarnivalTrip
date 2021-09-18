@@ -13,7 +13,7 @@
         con teleféricos que ascienden a su cima.</string>
     <string name="label_temp">Temperatura:</string>
     <string name="val_temp">27ºC</string>
-    <string name="image_description">Image POI</string>
+    <string name="image_description">Image</string>
     <string name="label_Date">Fecha:</string>
     <string name="val_Date">25-02-2022 al 05-03-2022</string>
     <string name="title_activity_view_poi">viewPOI</string>
@@ -22,5 +22,7 @@
     <string name="site2">Copacabana</string>
     <string name="site3">Maracaná</string>
     <string name="large_text"></string>
+    <string name="title_list_POI">Carnavales del Mundo</string>
+
 
 </resources>
