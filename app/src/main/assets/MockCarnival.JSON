@@ -1,0 +1,20 @@
+[
+  {
+    "titleItem":"Carnaval de Rio",
+    "obsItem":"El carnaval de Brasil es un festival celebrado anualmente en Brasil, a fines de febrero o principios de marzo.",
+    "quality":"10ptos",
+    "image":"https://media.ambito.com/p/f0b73d41b7f1274fc55a19fd2fae49bc/adjuntos/239/imagenes/037/849/0037849368/1200x900/smart/carnaval-rio.jpg"
+  },
+  {
+    "titleItem":"Carnaval de Barranquilla",
+    "obsItem":"Es un evento folclórico y cultural de Colombia, se realiza todos los años, comienza el sábado anterior al Miércoles de Ceniza y termina el martes inmediatamente posterior.",
+    "quality":"10ptos",
+    "image":"https://www.kienyke.com/sites/default/files/2021-02/Carnaval-de-Barranquilla-2021-1_1.jpg"
+  },
+  {
+    "titleItem":"Carnaval de Montevideo",
+    "obsItem":"El Carnaval de Uruguay es una fiesta popular y se realiza todos los años entre fines de enero y comienzos de febrero, extendiéndose en la totalidad del mes de febrero.",
+    "quality":"10ptos",
+    "image":"https://images.clarin.com/2020/02/15/integrantes-de-una-comparsa-tocan___JmhV6Rm8H_720x0__1.jpg"
+  }
+]
