@@ -11,6 +11,7 @@ import java.io.IOException
 class MainPoi : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_main_poi)
         initRecycler()
     }
