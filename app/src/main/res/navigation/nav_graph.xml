@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/viewListPoi">
+
+    <fragment
+        android:id="@+id/viewListPoi"
+        android:name="com.example.carnivaltrip.ViewListPoi"
+        android:label="ViewListPoi" >
+        <action
+            android:id="@+id/action_viewListPoi_to_viewDetailPoi"
+            app:destination="@id/viewDetailPoi" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewDetailPoi"
+        android:name="com.example.carnivaltrip.ViewDetailPoi"
+        android:label="ViewDetailPoi" >
+        <action
+            android:id="@+id/action_viewDetailPoi_to_viewListPoi"
+            app:destination="@id/viewListPoi" />
+    </fragment>
+</navigation>
