@@ -126,7 +126,7 @@
 
         <!-- TEXTVIEW TITLE SITES -->
         <TextView
-            android:id="@+id/sitesList"
+            android:id="@+id/labelSitesList"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -139,40 +139,10 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/labelDate" />
 
-        <!-- TEXTVIEW SITE 1 -->
-        <TextView
-            android:id="@+id/site1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="15dp"
-            android:text="@string/site1"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/sitesList" />
 
-        <!-- TEXTVIEW SITE 2 -->
-        <TextView
-            android:id="@+id/site2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="15dp"
-            android:text="@string/site2"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/site1" />
 
-        <!-- TEXTVIEW SITE 3 -->
-        <TextView
-            android:id="@+id/site3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="20dp"
-            android:text="@string/site3"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/site2" />
+        <!-- SITES INTERSTING -->
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

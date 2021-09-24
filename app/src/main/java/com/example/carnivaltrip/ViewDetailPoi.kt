@@ -2,6 +2,7 @@ package com.example.carnivaltrip
 
 import android.os.Bundle
 import android.view.*
+import android.widget.ArrayAdapter
 import androidx.activity.addCallback
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
@@ -54,6 +55,10 @@ class ViewDetailPoi : Fragment() {
         binding.descriptionCarnival.text = dPoi!!.obsCarnival
         binding.valTemperature.text = dPoi!!.temp
         binding.valDate.text = dPoi!!.date
+
+
+
+
     }
 
 }

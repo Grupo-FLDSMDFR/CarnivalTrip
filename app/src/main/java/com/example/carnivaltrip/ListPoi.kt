@@ -5,24 +5,26 @@ import android.os.Parcelable
 
 @parcelable
 data class ListPoi(
-    val titleItem:String,
-    val obsItem:String,
-    val quality:String,
-    val image:String,
-    val carnival:String,
-    val obsCarnival:String,
-    val temp:String,
-    val date:String
+    val titleItem: String?,
+    val obsItem:String?,
+    val quality:String?,
+    val image:String?,
+    val carnival:String?,
+    val obsCarnival:String?,
+    val temp:String?,
+    val date:String?,
+    val sites:Array<PopularSites>
 ) : Parcelable {
     constructor(parcel: Parcel) : this(
-        parcel.readString().toString(),
-        parcel.readString().toString(),
-        parcel.readString().toString(),
-        parcel.readString().toString(),
-        parcel.readString().toString(),
-        parcel.readString().toString(),
-        parcel.readString().toString(),
-        parcel.readString().toString()
+        parcel.readString(),
+        parcel.readString(),
+        parcel.readString(),
+        parcel.readString(),
+        parcel.readString(),
+        parcel.readString(),
+        parcel.readString(),
+        parcel.readString(),
+        TODO("sites")
     ) {
     }
 
@@ -41,6 +43,21 @@ data class ListPoi(
         return 0
     }
 
+    override fun equals(other: Any?): Boolean {
+        if (this === other) return true
+        if (javaClass != other?.javaClass) return false
+
+        other as ListPoi
+
+        if (!sites.contentEquals(other.sites)) return false
+
+        return true
+    }
+
+    override fun hashCode(): Int {
+        return sites.contentHashCode()
+    }
+
     companion object CREATOR : Parcelable.Creator<ListPoi> {
         override fun createFromParcel(parcel: Parcel): ListPoi {
             return ListPoi(parcel)
@@ -50,7 +67,6 @@ data class ListPoi(
             return arrayOfNulls(size)
         }
     }
-
 }
 
 annotation class parcelable

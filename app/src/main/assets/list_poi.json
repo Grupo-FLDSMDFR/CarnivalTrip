@@ -7,7 +7,12 @@
     "carnival": "Festival de Perth",
     "obsCarnival": "El Festival de Perth, denominado Festival Internacional de las Artes de Perth ( PIAF ) entre 2000 y 2017, y a veces denominado Festival de Perth, es el festival cultural más antiguo de Australia, que se celebra anualmente en Australia Occidental. El programa incluye música clásica y contemporánea, danza, teatro, ópera, artes visuales y obras públicas a gran escala. Los principales eventos del festival tienen lugar todos los años de febrero a marzo, con el Festival de Escritores de Perth (renombrado con otros nombres a lo largo del tiempo) en febrero, mientras que el festival de cine ahora conocido como Lotterywest Films se ejecuta de noviembre a abril, como parte del Festival de Perth.",
     "temp": "13ºC",
-    "date": "01-02-2022 al 30-03-2022"
+    "date": "01-02-2022 al 30-03-2022",
+    "sites": [
+      { "name": "Kings Park en Australia Occidental" },
+      { "name": "The Pinnacles Desert" },
+      { "name": "Lago Hillier" }
+    ]
   },
   {
     "titleItem":"Melbourne",
@@ -17,7 +22,12 @@
     "carnival": "Festival de Moomba",
     "obsCarnival": "El festival Moomba es celebrado en Melbourne durante el fin de semana del día del trabajador, que es un feriado obligatorio en Australia y regularmente corresponde al segundo lunes de Marzo. Moomba dura 4 días, culminando el día lunes del trabajador. Este festival atrae cada año a más de un millón de asistentes. Moomba es una celebración a la diversidad de los habitantes que habitan la ciudad.",
     "temp": "16ºC",
-    "date": "Segunda semana de Marzo"
+    "date": "Segunda semana de Marzo",
+    "sites": [
+      { "name": "Kings Park en Australia Occidental" },
+      { "name": "The Pinnacles Desert" },
+      { "name": "Lago Hillier" }
+    ]
   },
   {
     "titleItem":"Nueva Gales del Sur",
@@ -27,7 +37,12 @@
     "carnival": "Festival de la Vendimia:",
     "obsCarnival": "Una interesante actividad que se celebra en Nueva Gales del Sur, en donde se puede participar de la cosecha de la uva y degustar los mejores vinos australianos.",
     "temp": "19ºC",
-    "date": "01-02-2022 al 30-03-2022"
+    "date": "01-02-2022 al 30-03-2022",
+    "sites": [
+      { "name": "Kings Park en Australia Occidental" },
+      { "name": "The Pinnacles Desert" },
+      { "name": "Lago Hillier" }
+    ]
   },
   {
     "titleItem":"Adelaida",
@@ -37,7 +52,12 @@
     "carnival": "El Royal Adelaide Show",
     "obsCarnival": "El Royal Adelaide Show es un espectáculo agrícola anual dirigido por la Royal Agricultural and Horticultural Society of South Australia. Se lleva a cabo en Adelaide Showground, un lugar exclusivo ubicado en Wayville, un suburbio de Adelaide, Australia del Sur. El núcleo del espectáculo son las participaciones competitivas, como el ganado , las mascotas, las artes, la comida, las bebidas y las demostraciones de habilidad. El espectáculo presenta entradas en 63 secciones competitivas y atrae a más de 31.000 entradas al año. Además, el programa presenta entretenimiento, exhibidores, espectáculos secundarios, atracciones y exhibiciones. Asisten hasta medio millón de personas cada año, lo que lo convierte en el evento más grande del estado. También se considera el evento de mayor duración en el calendario de Australia del Sur.",
     "temp": "22ºC",
-    "date": "Según Cronograma"
+    "date": "Según Cronograma",
+    "sites": [
+      { "name": "Kings Park en Australia Occidental" },
+      { "name": "The Pinnacles Desert" },
+      { "name": "Lago Hillier" }
+    ]
   },
   {
     "titleItem":"Sydney",
@@ -47,5 +67,10 @@
     "carnival": "Festival de Sydney",
     "obsCarnival": "Gran derroche de actos celebrados en la ciudad más dinámica de Australia. Entre estos eventos destacan diversos conciertos al aire libre, ciclos de teatro, castillos de fuegos artificiales y regatas, sobre todo la famosa Sydney to Hobart Yacht Race. Las actividades del festival tienen lugar a lo largo del mes de Enero a excepción de la Sydney to Hobart Y.R. que se celebra el día 26 de Diciembre.",
     "temp": "19ºC",
-    "date": "01-01-2022 al 30-01-2022"
+    "date": "01-01-2022 al 30-01-2022",
+    "sites": [
+      { "name": "Kings Park en Australia Occidental" },
+      { "name": "The Pinnacles Desert" },
+      { "name": "Lago Hillier" }
+    ]
   }]

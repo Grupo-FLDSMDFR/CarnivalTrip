@@ -9,7 +9,7 @@
         <entry key="app/src/main/res/layout/activity_main_poi.xml" value="0.27313502521998706" />
         <entry key="app/src/main/res/layout/activity_view_poi.xml" value="0.23020833333333332" />
         <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.21614583333333334" />
-        <entry key="app/src/main/res/layout/fragment_view_detail_poi.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/fragment_view_detail_poi.xml" value="0.2953125" />
         <entry key="app/src/main/res/layout/fragment_view_list_poi.xml" value="0.29583333333333334" />
         <entry key="app/src/main/res/layout/items_list_poi.xml" value="0.33" />
         <entry key="app/src/main/res/layout/switch_item.xml" value="0.2953125" />
