@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/viewListPoi"
         android:name="com.example.carnivaltrip.ViewListPoi"
-        android:label="ViewListPoi" >
+        android:label="CarnivalTrip">
         <action
             android:id="@+id/action_viewListPoi_to_viewDetailPoi"
             app:destination="@id/viewDetailPoi" />
@@ -16,9 +16,16 @@
     <fragment
         android:id="@+id/viewDetailPoi"
         android:name="com.example.carnivaltrip.ViewDetailPoi"
-        android:label="ViewDetailPoi" >
+        android:label="Detalle">
         <action
             android:id="@+id/action_viewDetailPoi_to_viewListPoi"
             app:destination="@id/viewListPoi" />
+        <argument
+            android:name="poi"
+            app:argType="com.example.carnivaltrip.ListPoi" />
     </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.carnivaltrip.SettingsFragment"
+        android:label="Configuración" />
 </navigation>
