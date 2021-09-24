@@ -3,29 +3,74 @@
     "titleItem":"Australia Occidental",
     "obsItem":"Es un estado que ocupa el 32,9 por ciento occidental de la superficie terrestre de Australia, excluyendo los territorios externos. Limita con el Océano Índico al norte y al oeste, y el Océano Austral al sur, el Territorio del Norte al noreste y Australia Meridional al sureste. Australia Occidental es el estado más grande de Australia, con una superficie total de 2.527.013 kilómetros cuadrados (975.685 millas cuadradas), y la segunda subdivisión de país más grande del mundo, superada sólo por Rusia .República de Sakha .",
     "quality":"10ptos",
-    "image":"https://www.carnifest.com/wp-content/uploads/2019/04/Perth_Festival-Photo-www.perthfestival.com_.au_.jpg"
+    "image":"https://www.carnifest.com/wp-content/uploads/2019/04/Perth_Festival-Photo-www.perthfestival.com_.au_.jpg",
+    "carnival": "Festival de Perth",
+    "obsCarnival": "El Festival de Perth, denominado Festival Internacional de las Artes de Perth ( PIAF ) entre 2000 y 2017, y a veces denominado Festival de Perth, es el festival cultural más antiguo de Australia, que se celebra anualmente en Australia Occidental. El programa incluye música clásica y contemporánea, danza, teatro, ópera, artes visuales y obras públicas a gran escala. Los principales eventos del festival tienen lugar todos los años de febrero a marzo, con el Festival de Escritores de Perth (renombrado con otros nombres a lo largo del tiempo) en febrero, mientras que el festival de cine ahora conocido como Lotterywest Films se ejecuta de noviembre a abril, como parte del Festival de Perth.",
+    "temp": "13ºC",
+    "date": "01-02-2022 al 30-03-2022",
+    "sites": [
+      { "name": "Kings Park en Australia Occidental" },
+      { "name": "The Pinnacles Desert" },
+      { "name": "Lago Hillier" }
+    ]
   },
   {
     "titleItem":"Melbourne",
     "obsItem":"Es una ciudad australiana, capital y mayor ciudad del estado de Victoria. Fue la capital de Australia entre 1901 y 1927, cuando se trasladó a la ciudad planificada de Canberra. Escogida desde 2011 como la mejor ciudad del mundo para vivir, por sus altos niveles de calidad de vida y bajos niveles de pobreza, ha sido además seleccionada como favorita en lugares para conocer por los turistas. Es la segunda ciudad del país en población tras Sídney, con aproximadamente 5,1 millones de habitantes en su área metropolitana. Se encuentra en el curso inferior del río Yarra y las costas de la bahía Port Phillip, al norte y al este. El nombre de Melbourne sirve, también, para denominar la región geográfica del Gran Melbourne.",
     "quality":"7ptos",
-    "image":"https://pocketozmelbourne.com.au/images/Moomba-festival2.jpg"
+    "image":"https://pocketozmelbourne.com.au/images/Moomba-festival2.jpg",
+    "carnival": "Festival de Moomba",
+    "obsCarnival": "El festival Moomba es celebrado en Melbourne durante el fin de semana del día del trabajador, que es un feriado obligatorio en Australia y regularmente corresponde al segundo lunes de Marzo. Moomba dura 4 días, culminando el día lunes del trabajador. Este festival atrae cada año a más de un millón de asistentes. Moomba es una celebración a la diversidad de los habitantes que habitan la ciudad.",
+    "temp": "16ºC",
+    "date": "Segunda semana de Marzo",
+    "sites": [
+      { "name": "Kings Park en Australia Occidental" },
+      { "name": "The Pinnacles Desert" },
+      { "name": "Lago Hillier" }
+    ]
   },
   {
     "titleItem":"Nueva Gales del Sur",
     "obsItem":"es uno de los seis estados que, junto con los dos territorios continentales y los seis insulares, conforman la Mancomunidad de Australia. Su capital y ciudad más poblada es Sídney. Está ubicado al sureste del país, limitando al norte con Queensland, al este con el mar de Tasmania (océano Pacífico), al sur con el río Murray que lo separa de Victoria, y al oeste con Australia Meridional, además de rodear al Territorio de la Capital Australiana. Con 7 272 800 habs. en 2012 es el estado o territorio más poblado.",
     "quality":"10ptos",
-    "image":"https://volemos.nyc3.digitaloceanspaces.com/blog/wp-content/uploads/2020/01/Fiesta-de-la-Vendimia.jpg"
+    "image":"https://volemos.nyc3.digitaloceanspaces.com/blog/wp-content/uploads/2020/01/Fiesta-de-la-Vendimia.jpg",
+    "carnival": "Festival de la Vendimia:",
+    "obsCarnival": "Una interesante actividad que se celebra en Nueva Gales del Sur, en donde se puede participar de la cosecha de la uva y degustar los mejores vinos australianos.",
+    "temp": "19ºC",
+    "date": "01-02-2022 al 30-03-2022",
+    "sites": [
+      { "name": "Kings Park en Australia Occidental" },
+      { "name": "The Pinnacles Desert" },
+      { "name": "Lago Hillier" }
+    ]
   },
   {
     "titleItem":"Adelaida",
-    "obsItem":"Es la ciudad capital de Australia del Sur , la ciudad más grande del estado y la quinta ciudad más poblada de Australia . \"Adelaide\" puede referirse a Greater Adelaide (incluidas las colinas de Adelaide ) o al centro de la ciudad de Adelaide . El demonym Adelaidean se usa para denotar la ciudad y los residentes de Adelaide. El centro de la ciudad de Adelaida fue habitado originalmente por un grupo de personas Kaurnay conocido como Tarndanyangga (\"lugar del canguro rojo\") - ahora el nombre dual de Victoria Square en el medio de la ciudad - o Tarndanya .",
+    "obsItem":"Es la ciudad capital de Australia del Sur , la ciudad más grande del estado y la quinta ciudad más poblada de Australia . \"Adelaide\" puede referirse a Greater Adelaide (incluidas las colinas de Adelaide ) o al centro de la ciudad de Adelaide . El demonym Adelaidean se usa para denotar la ciudad y los residentes de Adelaide. El centro de la ciudad de Adelaida fue habitado originalmente por un grupo de personas Kaurnay conocido como Tarndanyangga (lugar del canguro rojo) - ahora el nombre dual de Victoria Square en el medio de la ciudad - o Tarndanya .",
     "quality":"10ptos",
-    "image":"https://indaily.com.au/wp-content/uploads/2013/09/Kidman-Gates_7-850x455.jpg"
+    "image":"https://indaily.com.au/wp-content/uploads/2013/09/Kidman-Gates_7-850x455.jpg",
+    "carnival": "El Royal Adelaide Show",
+    "obsCarnival": "El Royal Adelaide Show es un espectáculo agrícola anual dirigido por la Royal Agricultural and Horticultural Society of South Australia. Se lleva a cabo en Adelaide Showground, un lugar exclusivo ubicado en Wayville, un suburbio de Adelaide, Australia del Sur. El núcleo del espectáculo son las participaciones competitivas, como el ganado , las mascotas, las artes, la comida, las bebidas y las demostraciones de habilidad. El espectáculo presenta entradas en 63 secciones competitivas y atrae a más de 31.000 entradas al año. Además, el programa presenta entretenimiento, exhibidores, espectáculos secundarios, atracciones y exhibiciones. Asisten hasta medio millón de personas cada año, lo que lo convierte en el evento más grande del estado. También se considera el evento de mayor duración en el calendario de Australia del Sur.",
+    "temp": "22ºC",
+    "date": "Según Cronograma",
+    "sites": [
+      { "name": "Kings Park en Australia Occidental" },
+      { "name": "The Pinnacles Desert" },
+      { "name": "Lago Hillier" }
+    ]
   },
   {
-    "titleItem":"Sídney",
+    "titleItem":"Sydney",
     "obsItem":"Es la ciudad más grande y poblada de Australia y Oceanía, con una población en su área metropolitana cercana a los 4,92 millones, según una estimación de 2015. Es la capital del estado de Nueva Gales del Sur y fue el asentamiento de la primera colonia británica en Australia. Fue fundada en 1788 en la cala de Sídney por Arthur Phillip, almirante de la Primera Flota de Gran Bretaña, y es la ciudad más antigua del país",
     "quality":"10ptos",
-    "image":"https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2017/03/festival-vivid-sidney.jpg"
+    "image":"https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2017/03/festival-vivid-sidney.jpg",
+    "carnival": "Festival de Sydney",
+    "obsCarnival": "Gran derroche de actos celebrados en la ciudad más dinámica de Australia. Entre estos eventos destacan diversos conciertos al aire libre, ciclos de teatro, castillos de fuegos artificiales y regatas, sobre todo la famosa Sydney to Hobart Yacht Race. Las actividades del festival tienen lugar a lo largo del mes de Enero a excepción de la Sydney to Hobart Y.R. que se celebra el día 26 de Diciembre.",
+    "temp": "19ºC",
+    "date": "01-01-2022 al 30-01-2022",
+    "sites": [
+      { "name": "Kings Park en Australia Occidental" },
+      { "name": "The Pinnacles Desert" },
+      { "name": "Lago Hillier" }
+    ]
   }]

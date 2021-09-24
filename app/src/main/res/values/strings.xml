@@ -23,6 +23,18 @@
     <string name="site3">Maracaná</string>
     <string name="large_text"></string>
     <string name="title_list_POI">Carnavales del Mundo</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Notificaciones</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Recibir Notificaciones</string>
+    <string name="attachment_title">Activar el sonido de las notificaciones</string>
+    <string name="labelMenuCOnfig">configuracion</string>
 
 
 </resources>

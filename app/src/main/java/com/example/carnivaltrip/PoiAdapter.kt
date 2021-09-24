@@ -1,8 +1,11 @@
 package com.example.carnivaltrip
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.os.bundleOf
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.items_list_poi.view.*
@@ -16,6 +19,7 @@ class PoiAdapter(val listpoi:List<ListPoi>):RecyclerView.Adapter<PoiAdapter.PoiH
 
     override fun onBindViewHolder(holder: PoiHolder, position: Int) {
         holder.render(listpoi[position])
+
     }
 
     override fun getItemCount(): Int = listpoi.size
@@ -26,6 +30,10 @@ class PoiAdapter(val listpoi:List<ListPoi>):RecyclerView.Adapter<PoiAdapter.PoiH
             view.item_obs.text = listpoi.obsItem
             view.item_quality.text = listpoi.quality
             Picasso.get().load(listpoi.image).into(view.item_img)
+            view.setOnClickListener{
+                val data = bundleOf("poi" to listpoi)
+                view.findNavController().navigate(R.id.action_viewListPoi_to_viewDetailPoi, data)
+            }
         }
     }
 
