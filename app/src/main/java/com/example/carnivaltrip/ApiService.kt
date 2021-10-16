@@ -1,6 +1,5 @@
 package com.example.carnivaltrip
 
-import com.example.carnivaltrip.ListPoi
 import retrofit2.http.GET
 
 interface ApiService {

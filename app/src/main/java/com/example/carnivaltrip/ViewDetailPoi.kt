@@ -2,7 +2,6 @@ package com.example.carnivaltrip
 
 import android.os.Bundle
 import android.view.*
-import android.widget.ArrayAdapter
 import androidx.activity.addCallback
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
@@ -13,7 +12,7 @@ import com.squareup.picasso.Picasso
 class ViewDetailPoi : Fragment() {
 
     private lateinit var binding: FragmentViewDetailPoiBinding
-    private var dPoi:ListPoi? = null
+    private var dPoi: ListPoi? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -30,8 +29,7 @@ class ViewDetailPoi : Fragment() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return NavigationUI.
-        onNavDestinationSelected(item,requireView().findNavController())
+        return NavigationUI.onNavDestinationSelected(item, requireView().findNavController())
                 || super.onOptionsItemSelected(item)
     }
 
@@ -55,10 +53,6 @@ class ViewDetailPoi : Fragment() {
         binding.descriptionCarnival.text = dPoi!!.obsCarnival
         binding.valTemperature.text = dPoi!!.temp
         binding.valDate.text = dPoi!!.date
-
-
-
-
     }
 
 }

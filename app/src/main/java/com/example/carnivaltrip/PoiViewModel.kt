@@ -11,13 +11,12 @@ class PoiViewModel : ViewModel() {
 
     private var apiService = RetrofitFactory.apiService()
     private var carnival = MutableLiveData<List<ListPoi>>()
-    var carnivalLiveData: LiveData<List<ListPoi>> = carnival
 
     init {
         requestCarnival()
     }
 
-    fun getCarnivalClick() : LiveData<List<ListPoi>> = carnival
+    fun getCarnival() : LiveData<List<ListPoi>> = carnival
 
     fun requestCarnival() {
         // Coroutine that will be canceled when the ViewModel is cleared.
