@@ -4,16 +4,16 @@ import android.os.Parcel
 import android.os.Parcelable
 
 @parcelable
-data class ListPoi(
+data class CarnivalModel(
     val titleItem: String?,
-    val obsItem:String?,
-    val quality:String?,
-    val image:String?,
-    val carnival:String?,
-    val obsCarnival:String?,
-    val temp:String?,
-    val date:String?,
-    val sites:Array<PopularSites>
+    val obsItem: String?,
+    val quality: String?,
+    val image: String?,
+    val carnival: String?,
+    val obsCarnival: String?,
+    val temp: String?,
+    val date: String?,
+    val sites: Array<PopularSites>
 ) : Parcelable {
     constructor(parcel: Parcel) : this(
         parcel.readString(),
@@ -47,7 +47,7 @@ data class ListPoi(
         if (this === other) return true
         if (javaClass != other?.javaClass) return false
 
-        other as ListPoi
+        other as CarnivalModel
 
         if (!sites.contentEquals(other.sites)) return false
 
@@ -58,12 +58,12 @@ data class ListPoi(
         return sites.contentHashCode()
     }
 
-    companion object CREATOR : Parcelable.Creator<ListPoi> {
-        override fun createFromParcel(parcel: Parcel): ListPoi {
-            return ListPoi(parcel)
+    companion object CREATOR : Parcelable.Creator<CarnivalModel> {
+        override fun createFromParcel(parcel: Parcel): CarnivalModel {
+            return CarnivalModel(parcel)
         }
 
-        override fun newArray(size: Int): Array<ListPoi?> {
+        override fun newArray(size: Int): Array<CarnivalModel?> {
             return arrayOfNulls(size)
         }
     }
