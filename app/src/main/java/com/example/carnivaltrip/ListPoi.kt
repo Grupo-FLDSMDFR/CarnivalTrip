@@ -13,9 +13,13 @@ data class ListPoi(
     val obsCarnival:String?,
     val temp:String?,
     val date:String?,
+    val latitude:String?,
+    val longitude:String?,
     val sites:Array<PopularSites>
 ) : Parcelable {
     constructor(parcel: Parcel) : this(
+        parcel.readString(),
+        parcel.readString(),
         parcel.readString(),
         parcel.readString(),
         parcel.readString(),
@@ -37,6 +41,8 @@ data class ListPoi(
         parcel.writeString(obsCarnival)
         parcel.writeString(temp)
         parcel.writeString(date)
+        parcel.writeString(latitude)
+        parcel.writeString(longitude)
     }
 
     override fun describeContents(): Int {

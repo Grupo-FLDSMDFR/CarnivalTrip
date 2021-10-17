@@ -23,9 +23,17 @@
         <argument
             android:name="poi"
             app:argType="com.example.carnivaltrip.ListPoi" />
+        <action
+            android:id="@+id/action_viewDetailPoi_to_mapsActivity"
+            app:destination="@id/mapsActivity" />
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.example.carnivaltrip.SettingsFragment"
         android:label="Configuración" />
+    <activity
+        android:id="@+id/mapsActivity"
+        android:name="com.example.carnivaltrip.MapsActivity"
+        android:label="activity_maps"
+        tools:layout="@layout/activity_maps" />
 </navigation>
