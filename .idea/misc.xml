@@ -3,26 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/PC-86248/OneDrive - AriaPSW S.A.S/Escritorio/programacion/Android/CarnivalTrip/app/src/main/res/layout/activity_list.xml" value="0.33" />
         <entry key="..\:/Users/PC-86248/OneDrive - AriaPSW S.A.S/Escritorio/programacion/Android/CarnivalTrip/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/PC-86248/OneDrive - AriaPSW S.A.S/Escritorio/programacion/Android/CarnivalTrip/app/src/main/res/layout/activity_maps.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/PC-86248/OneDrive - AriaPSW S.A.S/Escritorio/programacion/Android/CarnivalTrip/app/src/main/res/layout/fragment_poi_detail.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/PC-86248/OneDrive - AriaPSW S.A.S/Escritorio/programacion/Android/CarnivalTrip/app/src/main/res/layout/fragment_poi_list.xml" value="0.19722222222222222" />
-        <entry key="..\:/Users/PC-86248/OneDrive - AriaPSW S.A.S/Escritorio/programacion/Android/CarnivalTrip/app/src/main/res/layout/fragment_view_detail_poi.xml" value="0.25" />
+        <entry key="..\:/Users/PC-86248/OneDrive - AriaPSW S.A.S/Escritorio/programacion/Android/CarnivalTrip/app/src/main/res/layout/carnival_list_item.xml" value="0.25" />
+        <entry key="..\:/Users/PC-86248/OneDrive - AriaPSW S.A.S/Escritorio/programacion/Android/CarnivalTrip/app/src/main/res/layout/fragment_poi_detail.xml" value="0.25" />
+        <entry key="..\:/Users/PC-86248/OneDrive - AriaPSW S.A.S/Escritorio/programacion/Android/CarnivalTrip/app/src/main/res/layout/fragment_poi_list.xml" value="0.25" />
+        <entry key="..\:/Users/PC-86248/OneDrive - AriaPSW S.A.S/Escritorio/programacion/Android/CarnivalTrip/app/src/main/res/layout/fragment_view_detail_poi.xml" value="0.33" />
         <entry key="..\:/Users/PC-86248/OneDrive - AriaPSW S.A.S/Escritorio/programacion/Android/CarnivalTrip/app/src/main/res/layout/fragment_view_list_poi.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/PC-86248/OneDrive - AriaPSW S.A.S/Escritorio/programacion/Android/CarnivalTrip/app/src/main/res/layout/items_list_poi.xml" value="0.20416666666666666" />
-        <entry key="app/src/main/res/layout/activity_detail.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/PC-86248/OneDrive - AriaPSW S.A.S/Escritorio/programacion/Android/CarnivalTrip/app/src/main/res/layout/items_list_poi.xml" value="0.33" />
+        <entry key="..\:/Users/PC-86248/OneDrive - AriaPSW S.A.S/Escritorio/programacion/Android/CarnivalTrip/app/src/main/res/layout/poi_list_item.xml" value="0.20416666666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25056689342403626" />
-        <entry key="app/src/main/res/layout/activity_main_poi.xml" value="0.27313502521998706" />
         <entry key="app/src/main/res/layout/activity_view_poi.xml" value="0.23020833333333332" />
         <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.21614583333333334" />
-        <entry key="app/src/main/res/layout/fragment_view_detail_poi.xml" value="0.2953125" />
-        <entry key="app/src/main/res/layout/fragment_view_list_poi.xml" value="0.29583333333333334" />
-        <entry key="app/src/main/res/layout/items_list_poi.xml" value="0.33" />
-        <entry key="app/src/main/res/layout/switch_item.xml" value="0.2953125" />
-        <entry key="app/src/main/res/menu/menu.xml" value="0.2953125" />
         <entry key="app/src/main/res/menu/menu_view_p_o_i.xml" value="0.23020833333333332" />
-        <entry key="app/src/main/res/menu/options_menu.xml" value="0.2953125" />
-        <entry key="app/src/main/res/xml/root_preferences.xml" value="0.3098958333333333" />
       </map>
     </option>
   </component>

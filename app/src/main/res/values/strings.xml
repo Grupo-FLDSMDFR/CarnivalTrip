@@ -35,7 +35,7 @@
     <string name="sync_title">Recibir Notificaciones</string>
     <string name="attachment_title">Activar el sonido de las notificaciones</string>
     <string name="labelMenuCOnfig">configuracion</string>
-    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps">Maps</string>
 
 
 </resources>
