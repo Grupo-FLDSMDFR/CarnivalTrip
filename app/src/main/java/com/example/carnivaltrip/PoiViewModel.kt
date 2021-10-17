@@ -1,32 +1,31 @@
 package com.example.carnivaltrip
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
+import androidx.lifecycle.*
+import com.example.carnivaltrip.ListPoi
+import com.example.carnivaltrip.RetrofitFactory
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import kotlinx.coroutines.launch
 
 class PoiViewModel : ViewModel() {
 
     private var apiService = RetrofitFactory.apiService()
-    private var carnival = MutableLiveData<List<CarnivalModel>>()
+    private var listPoi = MutableLiveData<List<ListPoi>>()
 
     init {
         requestCarnival()
     }
 
-    fun getCarnival(): LiveData<List<CarnivalModel>> = carnival
+    fun getCarnival() : LiveData<List<ListPoi>> = listPoi
 
-    private fun requestCarnival() {
+    fun requestCarnival() {
         // Coroutine that will be canceled when the ViewModel is cleared.
         viewModelScope.launch {
-            carnival.value = requestSuspendCarnival()
+            listPoi.value = requestSuspendCarnival()
         }
     }
 
-    private suspend fun requestSuspendCarnival(): List<CarnivalModel> {
+    private suspend fun requestSuspendCarnival(): List<ListPoi> {
         return withContext(Dispatchers.IO) {
             apiService.requestCarnival()
         }

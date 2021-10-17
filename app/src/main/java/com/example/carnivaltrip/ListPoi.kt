@@ -4,18 +4,22 @@ import android.os.Parcel
 import android.os.Parcelable
 
 @parcelable
-data class CarnivalModel(
+data class ListPoi(
     val titleItem: String?,
-    val obsItem: String?,
-    val quality: String?,
-    val image: String?,
-    val carnival: String?,
-    val obsCarnival: String?,
-    val temp: String?,
-    val date: String?,
-    val sites: Array<PopularSites>
+    val obsItem:String?,
+    val quality:String?,
+    val image:String?,
+    val carnival:String?,
+    val obsCarnival:String?,
+    val temp:String?,
+    val date:String?,
+    val latitude:String?,
+    val longitude:String?,
+    val sites:Array<PopularSites>
 ) : Parcelable {
     constructor(parcel: Parcel) : this(
+        parcel.readString(),
+        parcel.readString(),
         parcel.readString(),
         parcel.readString(),
         parcel.readString(),
@@ -37,6 +41,8 @@ data class CarnivalModel(
         parcel.writeString(obsCarnival)
         parcel.writeString(temp)
         parcel.writeString(date)
+        parcel.writeString(latitude)
+        parcel.writeString(longitude)
     }
 
     override fun describeContents(): Int {
@@ -47,7 +53,7 @@ data class CarnivalModel(
         if (this === other) return true
         if (javaClass != other?.javaClass) return false
 
-        other as CarnivalModel
+        other as ListPoi
 
         if (!sites.contentEquals(other.sites)) return false
 
@@ -58,12 +64,12 @@ data class CarnivalModel(
         return sites.contentHashCode()
     }
 
-    companion object CREATOR : Parcelable.Creator<CarnivalModel> {
-        override fun createFromParcel(parcel: Parcel): CarnivalModel {
-            return CarnivalModel(parcel)
+    companion object CREATOR : Parcelable.Creator<ListPoi> {
+        override fun createFromParcel(parcel: Parcel): ListPoi {
+            return ListPoi(parcel)
         }
 
-        override fun newArray(size: Int): Array<CarnivalModel?> {
+        override fun newArray(size: Int): Array<ListPoi?> {
             return arrayOfNulls(size)
         }
     }

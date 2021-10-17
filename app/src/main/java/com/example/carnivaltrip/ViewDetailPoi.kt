@@ -12,7 +12,7 @@ import com.squareup.picasso.Picasso
 class ViewDetailPoi : Fragment() {
 
     private lateinit var binding: FragmentViewDetailPoiBinding
-    private var mCarnival: CarnivalModel? = null
+    private var dPoi: ListPoi? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -43,16 +43,16 @@ class ViewDetailPoi : Fragment() {
         }
 
         arguments?.let {
-            mCarnival = it.getParcelable("poi")
+            dPoi = it.getParcelable("poi")
         }
 
-        binding.titleView.text = mCarnival!!.titleItem
-        Picasso.get().load(mCarnival!!.image).into(binding.imageView)
-        binding.descriptionView.text = mCarnival!!.obsItem
-        binding.titleCarnival.text = mCarnival!!.carnival
-        binding.descriptionCarnival.text = mCarnival!!.obsCarnival
-        binding.valTemperature.text = mCarnival!!.temp
-        binding.valDate.text = mCarnival!!.date
+        binding.titleView.text = dPoi!!.titleItem
+        Picasso.get().load(dPoi!!.image).into(binding.imageView)
+        binding.descriptionView.text = dPoi!!.obsItem
+        binding.titleCarnival.text = dPoi!!.carnival
+        binding.descriptionCarnival.text = dPoi!!.obsCarnival
+        binding.valTemperature.text = dPoi!!.temp
+        binding.valDate.text = dPoi!!.date
     }
 
 }
