@@ -1,17 +1,14 @@
 package com.example.carnivaltrip
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.*
 import androidx.activity.addCallback
-import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
 import com.example.carnivaltrip.databinding.FragmentViewDetailPoiBinding
 import com.squareup.picasso.Picasso
-import android.content.Intent
-
-
 
 
 class ViewDetailPoi : Fragment() {
@@ -59,7 +56,7 @@ class ViewDetailPoi : Fragment() {
         binding.valTemperature.text = dPoi!!.temp
         binding.valDate.text = dPoi!!.date
 
-        binding.button.setOnClickListener{
+        binding.button.setOnClickListener {
             val intent = Intent(activity, MapsActivity::class.java)
             intent.putExtra("latitude", dPoi!!.latitude)
             intent.putExtra("longitude", dPoi!!.longitude)

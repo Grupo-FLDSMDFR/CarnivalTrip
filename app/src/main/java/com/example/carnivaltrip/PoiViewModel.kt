@@ -1,11 +1,12 @@
 package com.example.carnivaltrip
 
-import androidx.lifecycle.*
-import com.example.carnivaltrip.ListPoi
-import com.example.carnivaltrip.RetrofitFactory
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 class PoiViewModel : ViewModel() {
 
@@ -16,7 +17,7 @@ class PoiViewModel : ViewModel() {
         requestCarnival()
     }
 
-    fun getCarnival() : LiveData<List<ListPoi>> = listPoi
+    fun getCarnival(): LiveData<List<ListPoi>> = listPoi
 
     fun requestCarnival() {
         // Coroutine that will be canceled when the ViewModel is cleared.
